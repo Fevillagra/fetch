@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Buscador de imágenes PIXABAY</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="./img/icon.png">
+    </head>
+    <body>
+        <h1 class="titulo">Buscador de imagenes Pixabay</h1>
+
+        <div class="buscador">
+            <form id="formulario" class="">
+                <label class="block text-white font-bold uppercase">Escribe algo...</label>
+                <input 
+                    type="text"
+                    class="termino"
+                    placeholder="Ej: Tenis, Mermelada.."
+                    id="termino"
+                />
+    
+                <input 
+                    type="submit"
+                    value="Buscar Imágenes"
+                    class="button"
+                > 
+            </form>
+        </div>
+    
+        <div id="resultado">
+        </div>
+    
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
